@@ -7,7 +7,26 @@
 }
 
 body {
-  background-color: rgb(65, 138, 146);
+  animation: changeBg 5s infinite
+  alternate linear;
+}
+
+@keyframes changeBg{
+  0%{
+    background: #ee6055;
+  }
+  25%{
+    background: #45b276;
+  }
+  50%{
+    background: #94f165;
+  }
+  75%{
+    background: #b8860f;
+  }
+  100%{
+    background: #0c57e2;
+  }
 }
 
 .header {
